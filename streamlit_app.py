@@ -17,16 +17,16 @@ driscoll = Image.open("images/driscoll.png")
 st.set_page_config(page_title="Seth Roberts", page_icon=":victory_hand:", layout="wide")
 
 #HEADER SECTION
-with st.container():
-    left_column, right_column = st.columns(2)
-    with left_column:
+#with st.container():
+   # left_column, right_column = st.columns(2)
+    #with left_column:
         st.subheader("Hi, I am Seth :wave:")
         st.title("I work in Literature Ministries for the Michigan Conference")
         st.write("I'm passionate about using literature evangelism to change the lives of young people around the world.")
         st.write("[Learn More >](https://www.miyouthrush.org)")
     
-    with right_column:
-        st.write("Test")
+    #with right_column:
+      #  st.write("Test")
         #st_lottie(weightlifting, height=300, key="weight-lifting")
 
 
