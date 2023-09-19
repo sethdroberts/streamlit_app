@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import requests
-import streamlit_lottie
+from streamlit_lottie import st_lottie
 
 
 #def load_lottieurl(url):
