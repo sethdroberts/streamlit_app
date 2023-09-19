@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-import streamlit_lottie as st_lottie
+#import streamlit_lottie as st_lottie
 from PIL import Image
 
 
