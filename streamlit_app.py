@@ -26,6 +26,7 @@ with st.container():
         st.write("[Learn More >](https://www.miyouthrush.org)")
     
     with right_column:
+        st.write("Test")
        # streamlit_lottie(weightlifting, height=300, key="weight-lifting")
 
 
