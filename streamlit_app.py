@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import requests
-from streamlit_lottie import st_lottie
+import streamlit_lottie
 
 
 def load_lottieurl(url):
@@ -25,7 +25,7 @@ with left_column:
     st.write("[Learn More >](https://www.miyouthrush.org)")
 
 with right_column:
-    st_lottie(weightlifting, height=300, key="weight-lifting")
+    streamlit_lottie(weightlifting, height=300, key="weight-lifting")
 
 
 # ---- PROJECTS ----
