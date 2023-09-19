@@ -5,10 +5,10 @@ from streamlit_lottie import st_lottie
 
 
 #def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+   # r = requests.get(url)
+    #if r.status_code != 200:
+     #   return None
+    #return r.json()
 
 #---ASSETS
 #weightlifting = load_lottieurl("https://lottie.host/2fd942eb-36b2-4503-a389-690e3c636ae5/ztnNZi7pxo.json")
